@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=>=app-editors/emacs-23.1:*
+DESCRIPTION=A navigator for the Japanese textboard 2ch
+EAPI=6
+HOMEPAGE=http://navi2ch.sourceforge.net/
+KEYWORDS=amd64 ppc ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=GPL-2+
+RDEPEND=>=app-editors/emacs-23.1:*
+SLOT=0
+SRC_URI=mirror://sourceforge/navi2ch/navi2ch-1.8.4.tar.gz
+_eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	elisp	ba40293f44b2e5c3c19d4671c19ce01a	elisp-common	f9c72486dbcb18b633c9d0949211d86e	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55
+_md5_=359774a25ee966f5690be38cc758152a

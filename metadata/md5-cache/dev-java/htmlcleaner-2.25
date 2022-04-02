@@ -1,0 +1,15 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile configure install preinst prepare setup test
+DEPEND=dev-java/jdom:2 dev-java/ant-core:0 test? ( dev-java/junit:4 ) >=virtual/jdk-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DESCRIPTION=HTML parser written in Java that can be used as a tool, library or Ant task
+EAPI=7
+HOMEPAGE=http://htmlcleaner.sourceforge.net/
+IUSE=test doc source
+KEYWORDS=amd64 x86
+LICENSE=BSD
+RDEPEND=dev-java/jdom:2 >=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=mirror://sourceforge/htmlcleaner/files/htmlcleaner-2.25-src.zip
+_eclasses_=java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	java-pkg-simple	8a2b8811bad7877b5ec349bddeceabb6	java-utils-2	5faae27f317e090a61b74f53f5e0cbc9
+_md5_=3985eacac36e2ec1a395a39c03b79127

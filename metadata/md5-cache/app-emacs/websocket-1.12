@@ -1,0 +1,12 @@
+BDEPEND=>=app-editors/emacs-24:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DESCRIPTION=A websocket implementation in elisp
+EAPI=7
+HOMEPAGE=https://github.com/ahyatt/emacs-websocket
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=>=app-editors/emacs-24:*
+SLOT=0
+SRC_URI=https://github.com/ahyatt/emacs-websocket/archive/1.12.tar.gz -> websocket-1.12.tar.gz
+_eclasses_=elisp	ba40293f44b2e5c3c19d4671c19ce01a	elisp-common	f9c72486dbcb18b633c9d0949211d86e
+_md5_=4a502fd7fc4a99799ac2ea62ed0dc485

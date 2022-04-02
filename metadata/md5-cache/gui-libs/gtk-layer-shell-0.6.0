@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig gtk-doc? ( dev-util/gtk-doc ) test? ( || ( >=dev-lang/python-3.10.0_p1-r1:3.10 >=dev-lang/python-3.9.9-r1:3.9 >=dev-lang/python-3.8.12_p1-r1:3.8 ) ) >=dev-util/meson-0.59.4 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEFINED_PHASES=compile configure install setup test
+DEPEND=>=x11-libs/gtk+-3.24.26:3[introspection,wayland] >=dev-libs/wayland-1.10.0 >=dev-libs/wayland-protocols-1.16
+DESCRIPTION=Library to create desktop components for Wayland using the Layer Shell protocol
+EAPI=7
+HOMEPAGE=https://github.com/wmww/gtk-layer-shell
+IUSE=examples gtk-doc test
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~riscv ~x86
+LICENSE=MIT-with-advertising LGPL-3+
+RDEPEND=>=x11-libs/gtk+-3.24.26:3[introspection,wayland] >=dev-libs/wayland-1.10.0 >=dev-libs/wayland-protocols-1.16
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/wmww/gtk-layer-shell/archive/refs/tags/v0.6.0.tar.gz -> gtk-layer-shell-0.6.0.tar.gz
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	meson	2d8a51910bc57e004c37aa55c7d99ce4	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	fef481272d4a8e136a7d8a0fb1329384	python-any-r1	9006edf4b9c90f9ba1dc9ea9fee1b0bd	python-utils-r1	dfa3a38467793e97fcf791b156510654	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8
+_md5_=f8d35cc0d62dde7774f28c0ade76f679

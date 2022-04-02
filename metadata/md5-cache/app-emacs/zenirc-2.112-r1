@@ -1,0 +1,12 @@
+BDEPEND=>=app-editors/emacs-23.1:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DESCRIPTION=A full-featured scriptable IRC client for the Emacs text editor
+EAPI=7
+HOMEPAGE=http://www.zenirc.org/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2+
+RDEPEND=>=app-editors/emacs-23.1:*
+SLOT=0
+SRC_URI=ftp://ftp.zenirc.org/pub/zenirc/zenirc-2.112.tar.gz
+_eclasses_=elisp	ba40293f44b2e5c3c19d4671c19ce01a	elisp-common	f9c72486dbcb18b633c9d0949211d86e	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55
+_md5_=1c4731458aa3e285a538bcf2ae02301e

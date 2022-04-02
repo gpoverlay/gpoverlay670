@@ -1,0 +1,12 @@
+BDEPEND=>=app-editors/emacs-23.1:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DESCRIPTION=Provides the google C/C++ coding style
+EAPI=7
+HOMEPAGE=https://github.com/google/styleguide
+KEYWORDS=amd64 x86
+LICENSE=|| ( GPL-1+ Artistic )
+RDEPEND=>=app-editors/emacs-23.1:*
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~ulm/distfiles/google-c-style-20140929.el.gz
+_eclasses_=elisp	ba40293f44b2e5c3c19d4671c19ce01a	elisp-common	f9c72486dbcb18b633c9d0949211d86e	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55
+_md5_=10e1327d7989e968aa4cbf0e692fb9b2

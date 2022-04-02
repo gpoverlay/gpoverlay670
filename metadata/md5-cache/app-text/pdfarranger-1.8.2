@@ -1,0 +1,15 @@
+BDEPEND=python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 ) >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test
+DEPEND=app-text/poppler[introspection,cairo] dev-python/pikepdf[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pycairo[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pygobject:3[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,cairo] dev-python/python-dateutil[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] x11-libs/gtk+:3[introspection] x11-libs/pango[introspection] dev-python/python-distutils-extra[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
+DESCRIPTION=Merge or split pdfs; rearrange, rotate, crop pages
+EAPI=8
+HOMEPAGE=https://github.com/jeromerobert/pdfarranger
+IUSE=python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
+KEYWORDS=amd64
+LICENSE=GPL-3
+RDEPEND=app-text/poppler[introspection,cairo] dev-python/pikepdf[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pycairo[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pygobject:3[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,cairo] dev-python/python-dateutil[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] x11-libs/gtk+:3[introspection] x11-libs/pango[introspection] python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 ) >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
+REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
+SLOT=0
+SRC_URI=https://github.com/jeromerobert/pdfarranger/archive/1.8.2.tar.gz -> pdfarranger-1.8.2.tar.gz
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	distutils-r1	e91901adfcf0640d2daa4dc863ff5377	multibuild	d26d81f242cb193d899a72bca423d0bd	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	optfeature	d524f291c80f9d21ad80fe978e3ca760	python-r1	8638751691200e941f26fe0ac3aef1d1	python-utils-r1	dfa3a38467793e97fcf791b156510654	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	xdg	6024fbc93167fad782e2032933654857	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
+_md5_=27262624c42099acf5f53addaf40e586

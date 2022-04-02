@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-tex/hevea )
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=>=dev-lang/ocaml-4.08.0:= virtual/latex-base dev-texlive/texlive-latexextra virtual/latex-base >=sys-apps/texinfo-4.2-r5
+DESCRIPTION=O'Caml literate programming tool
+EAPI=7
+HOMEPAGE=https://www.lri.fr/~filliatr/ocamlweb/
+IUSE=test
+KEYWORDS=amd64 arm arm64 ~ppc ppc64 x86
+LICENSE=LGPL-2
+RDEPEND=>=dev-lang/ocaml-4.08.0:= virtual/latex-base dev-texlive/texlive-latexextra virtual/latex-base
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://www.lri.fr/~filliatr/ftp/ocamlweb/ocamlweb-1.41.tar.gz
+_eclasses_=latex-package	223c086dd062dba43b89726880f9f0c2
+_md5_=8eafdb70d661fd008ee2b0de2c0c630d

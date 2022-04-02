@@ -1,0 +1,14 @@
+BDEPEND=dev-ml/dune dev-lang/ocaml
+DEFINED_PHASES=compile install test
+DEPEND=dev-ml/stdlib-shims:=[ocamlopt?] dev-ml/graphics:=[ocamlopt?] >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DESCRIPTION=O'Caml Graph library
+EAPI=7
+HOMEPAGE=http://ocamlgraph.lri.fr/index.en.html
+IUSE=+ocamlopt
+KEYWORDS=amd64 arm arm64 ~ppc ppc64 x86
+LICENSE=LGPL-2.1
+RDEPEND=dev-ml/stdlib-shims:=[ocamlopt?] dev-ml/graphics:=[ocamlopt?] >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+SLOT=0/2.0.0
+SRC_URI=https://github.com/backtracking/ocamlgraph/releases/download/2.0.0/ocamlgraph-2.0.0.tbz
+_eclasses_=dune	c8f275f00adf2380fe0a57d8a249885c	multiprocessing	61c959fc55c15c00bbb1079d6a71370b
+_md5_=5a3ca6625f027484d8d7520baff626a8
